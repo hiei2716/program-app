@@ -1,24 +1,30 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+## usersテーブル
 
-Things you may want to cover:
+|Column|Type|Options|
+|------|----|-------|
+|name|string|null: false|
+|mail|string|null: false|
+|password|string|null: false|
+|password_confirmation|string|null: false|
 
-* Ruby version
 
-* System dependencies
+### Association
 
-* Configuration
+## program-wordテーブル
 
-* Database creation
+|Column|Type|Options|
+|------|----|-------|
+|name|integer|null: false, foreign_key: true|
 
-* Database initialization
+### Association
 
-* How to run the test suite
+## programu-Frameworkテーブル
 
-* Services (job queues, cache servers, search engines, etc.)
+|Column|Type|Options|
+|------|----|-------|
+|name|integer|null: false, foreign_key: true|
 
-* Deployment instructions
+### Association
 
-* ...
