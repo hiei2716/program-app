@@ -12,7 +12,7 @@
 
 ## ユーザーテーブル
 
-|Column|Type|Options|
+|カラム|タイプ|オプション|
 |------|----|-------|
 |name|string|null: false|
 |mail|string|null: false|
@@ -24,7 +24,7 @@
 
 ## プログラム言語テーブル
 
-|Column|Type|Options|
+|カラム|タイプ|オプション|
 |------|----|-------|
 |name|integer|null: false|
 
@@ -32,7 +32,7 @@
 
 ## プログラムフレームワークテーブル
 
-|Column|Type|Options|
+|カラム|タイプ|オプション|
 |------|----|-------|
 |name|integer|null: false|
 
@@ -40,6 +40,8 @@
 
 ## テスト問題テーブル
 
-|Column|Type|Options|
+|カラム|タイプ|オプション|
 |------|----|-------|
 |name|integer|null: false|
+
+### Association
