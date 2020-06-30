@@ -1,8 +1,12 @@
-= render partial: 'layouts/header'
+.header
+  .header__title
+    = link_to "プログラミング紹介サイト", '#', class: "header__title--text"
+  .header__right
+    = link_to "新規投稿", '#', class: "header__right--btn"
 
 .main
-  .index
-  = link_to "/" do
-    HTML
-  = link_to "/" do
-    CSS
+  .main-content
+    = link_to "/" do
+      HTML
+    = link_to "/" do
+      CSS
