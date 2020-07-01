@@ -1,4 +1,17 @@
 .footer{
   background-color: orange;
   height: 90px;
+  display: flex;
+  justify-content: space-between;
+  .footer_info{
+    font-size: 20px;
+    display: flex;
+    .footer_info_name{
+      margin-left: 15px;
+    }
+    .footer_profile{
+      text-decoration: none;
+      margin-left: 15px;
+    }
+  }
 }
