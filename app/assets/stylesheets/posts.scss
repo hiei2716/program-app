@@ -2,4 +2,14 @@
   width: 100%;
   height: 650px;
   background-color: #ffffdf;
+  .main-content{
+    width: 600px;
+    height: 400px;
+    padding: 50px;
+    .main-content-block{
+      width: 200px;
+      height: 300px;
+      background-color: #ffffff;
+    }
+  }
 }
