@@ -1,0 +1,2 @@
+class ProgramWord < ApplicationRecord
+end

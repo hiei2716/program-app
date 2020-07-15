@@ -27,6 +27,7 @@
 |カラム|タイプ|オプション|
 |------|----|-------|
 |name|integer|null: false|
+|content|text|null: false|
 
 ### Association
 
@@ -35,6 +36,7 @@
 |カラム|タイプ|オプション|
 |------|----|-------|
 |name|integer|null: false|
+|content|text|null: false|
 
 ### Association
 
