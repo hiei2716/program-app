@@ -1,5 +1,5 @@
 Rails.application.routes.draw do
   devise_for :users
-  root 'posts#top'
+  root 'home#top'
   resources :profiles, only: [:index]
 end
