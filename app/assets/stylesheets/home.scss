@@ -1,6 +1,10 @@
 .main{
   height: 650px;
   background-color: #ffffdf;
+  .main-title1{
+    font-size: 30px;
+    text-align: center;
+  }    
   .main-content1{
     padding: 50px;
     display: flex;
@@ -18,6 +22,10 @@
         padding-left: 100px;
       }
     }
+  }
+  .main-title2{
+    font-size: 30px;
+    text-align: center;
   }
   .main-content2{
     padding: 50px;
